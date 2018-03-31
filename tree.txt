@@ -1,0 +1,10 @@
+E:\Web\NodeJs\study\runoob\code\v0.0.1
+├─01.js
+├─buffer.js
+├─callback.js
+├─eventEmitter.js
+├─package-lock.json
+├─package.json
+├─README.md
+├─file
+|  └input.txt

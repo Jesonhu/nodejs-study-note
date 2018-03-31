@@ -1,0 +1,21 @@
+├─mayClassStructure.md // NodeJS结构梳理
+├─package-lock.json 
+├─package.json
+├─README.md
+├─tree.txt
+├─src
+|  ├─HelloWorld.js // [0001]
+|  ├─Buffer.js // 缓存区
+|  ├─Callback.js // 回调函数风格
+|  ├─EventEmitter.js // 事件处理
+|  ├─Function.js // 函数
+|  ├─Module.js // 模块
+|  ├─Stream.js // 流
+|  ├─file // NodeJS读取文件，压缩解压缩等资源文件夹
+|  |  ├─input.txt
+|  |  ├─input.txt.gz
+|  |  ├─input.txt.zip
+|  |  ├─input_decompress.txt
+|  |  ├─input_decompress_result.txt
+|  |  ├─output.txt
+|  |  └pipe.txt

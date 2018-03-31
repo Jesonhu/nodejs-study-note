@@ -1,0 +1,24 @@
+E:\Web\NodeJs\study\runoob\code\v0.0.1
+├─mayClassStructure.md
+├─package-lock.json
+├─package.json
+├─README.md
+├─tree.txt
+├─src
+|  ├─01.js
+|  ├─Buffer.js
+|  ├─Callback.js
+|  ├─EventEmitter.js
+|  ├─Function.js
+|  ├─Module.js
+|  ├─Stream.js
+|  ├─tree
+|  |  └tree.txt
+|  ├─file
+|  |  ├─input.txt
+|  |  ├─input.txt.gz
+|  |  ├─input.txt.zip
+|  |  ├─input_decompress.txt
+|  |  ├─input_decompress_result.txt
+|  |  ├─output.txt
+|  |  └pipe.txt
