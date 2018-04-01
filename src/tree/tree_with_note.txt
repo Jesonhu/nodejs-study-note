@@ -1,17 +1,38 @@
-├─mayClassStructure.md // NodeJS结构梳理
-├─package-lock.json 
+├─.gitignore
+├─index.html
+├─index.js // 路由实例和src/Router.js和src/router/router.js搭配使用
+├─mayClassStructure.md
+├─package-lock.json
 ├─package.json
 ├─README.md
-├─tree.txt
 ├─src
-|  ├─HelloWorld.js // [0001]
+|  ├─HelloWord.js // [0001]
 |  ├─Buffer.js // 缓存区
-|  ├─Callback.js // 回调函数风格
+|  ├─Callback.js // 回调函数
+|  ├─dns-module.js // 域名服务器模块
+|  ├─domain-module.js // Dommain模块
 |  ├─EventEmitter.js // 事件处理
+|  ├─Fs.js // 文件处理模块
 |  ├─Function.js // 函数
-|  ├─Module.js // 模块
+|  ├─Get.js // get方式
+|  ├─global-object.js // Node.js全局对象
+|  ├─http-client.js // 与http服务器实例搭配使用的客户端
+|  ├─http-module.js // http服务器
+|  ├─Module.js // Node.js模块
+|  ├─net-client.js // 与网络模块实例搭配使用的客户端
+|  ├─net-module.js // 网络模块
+|  ├─os-module.js // 操作系统模块
+|  ├─path-module.js // 路径模块
+|  ├─Post.js // post方式
+|  ├─Router.js // Node.js的路由
 |  ├─Stream.js // 流
-|  ├─file // NodeJS读取文件，压缩解压缩等资源文件夹
+|  ├─Util.js // Node.js util模块
+|  ├─tree // 目录树文件夹
+|  |  ├─tree.txt // 不带注释的目录树
+|  |  └tree_with_note.txt // 带注释的目录树
+|  ├─router 
+|  |   └router.js // 和router.js实例搭配使用的
+|  ├─file // 文件操作存放资源的目录
 |  |  ├─input.txt
 |  |  ├─input.txt.gz
 |  |  ├─input.txt.zip
@@ -19,3 +40,6 @@
 |  |  ├─input_decompress_result.txt
 |  |  ├─output.txt
 |  |  └pipe.txt
+|  ├─assets
+|  |   ├─img // 展示的图片文件夹
+|  |   |  └net-client&net-server.gif // net-client和net-module实例效果展示效果图
